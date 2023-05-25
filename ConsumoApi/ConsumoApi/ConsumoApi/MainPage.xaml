@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConsumoApi.MainPage">
+    <StackLayout BackgroundColor="White" AbsoluteLayout.LayoutFlags="All">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label  Text="Consumo API Clientes" HorizontalTextAlignment="Center" TextColor="White" FontSize="15"/>
+        </Frame>
+        <Frame BackgroundColor="AliceBlue" Padding="0" CornerRadius="0">
+            <Label x:Name="lblRes" Text="RESPUESTA" HorizontalTextAlignment="Center" TextColor="Red" FontSize="10"/>
+        </Frame>
+        <Label Text="Cedula:" TextColor="Black" HorizontalTextAlignment="Start"></Label>
+        <Entry  x:Name="cedula" TextColor="Black" Text="10" HorizontalTextAlignment="Center" Background="AliceBlue"></Entry>
+        
+        <Label Text="Nombre:" TextColor="Black" HorizontalTextAlignment="Start"></Label>
+        <Entry x:Name="nombre" TextColor="Black" Text="Davidq" HorizontalTextAlignment="Center" BackgroundColor="AliceBlue"></Entry>
+       
+        <Label Text="Total a Pagar:" TextColor="Black" HorizontalTextAlignment="Start"></Label>
+        <Entry x:Name="totalPa" TextColor="Black" Text="10" HorizontalTextAlignment="Center" BackgroundColor="AliceBlue"></Entry>
+        
+        <Label Text="Saldo:" TextColor="Black" HorizontalTextAlignment="Start"></Label>
+        <Entry x:Name="saldo" TextColor="Black" Text="10" HorizontalTextAlignment="Center" BackgroundColor="AliceBlue"></Entry>
+        
+        <Label Text="Debe:" TextColor="Black" HorizontalTextAlignment="Start"></Label>
+        <Entry x:Name="debe" TextColor="Black" Text="10" HorizontalTextAlignment="Center" BackgroundColor="AliceBlue"></Entry>
+
+        <Frame AbsoluteLayout.LayoutBounds="0,1,1,.50" AbsoluteLayout.LayoutFlags="SizeProportional,YProportional"  HasShadow="False">
+            <Grid AbsoluteLayout.LayoutBounds="0,1,1,.50" AbsoluteLayout.LayoutFlags="SizeProportional,YProportional" RowDefinitions="*,*" ColumnDefinitions="*,*" Padding="7" RowSpacing="4" ColumnSpacing="4">
+                <Frame Grid.Column="0" Grid.Row="0" Padding="0,-8,0,0" Margin="10" CornerRadius="12">
+                    <Button TextColor="DarkBlue" FontSize="15" VerticalOptions="Fill" Text="READ"  Clicked="Btn_read" BackgroundColor="White"/>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="0" Padding="0,-8,0,0" Margin="10" CornerRadius="12">
+                    <Button TextColor="DeepPink" FontSize="15" VerticalOptions="Fill" Text="DELETE"  Clicked="Btn_delete" BackgroundColor="White"/>
+                </Frame>
+                <Frame Grid.Column="0" Grid.Row="1" Padding="0,-8,0,0" Margin="10" CornerRadius="7">
+                    <Button TextColor="DarkBlue" FontSize="15" VerticalOptions="Fill" Text="UPDATE"  Clicked="Btn_update" BackgroundColor="White"/>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="1" Padding="0,-8,0,0" Margin="11" CornerRadius="12">
+                    <Button TextColor="DarkBlue" FontSize="15" VerticalOptions="Fill" Text="CREATE"  Clicked="Btn_create" BackgroundColor="White"/>
+                </Frame>
+               
+            </Grid>
+        </Frame>
+    </StackLayout>
+</ContentPage>

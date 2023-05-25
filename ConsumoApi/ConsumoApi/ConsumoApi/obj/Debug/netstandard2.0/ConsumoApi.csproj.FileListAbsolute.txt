@@ -1,0 +1,15 @@
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\bin\Debug\netstandard2.0\ConsumoApi.deps.json
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\bin\Debug\netstandard2.0\ConsumoApi.dll
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\bin\Debug\netstandard2.0\ref\ConsumoApi.dll
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\bin\Debug\netstandard2.0\ConsumoApi.pdb
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\ConsumoApi.csproj.AssemblyReference.cache
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\ConsumoApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\ConsumoApi.AssemblyInfoInputs.cache
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\ConsumoApi.AssemblyInfo.cs
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\ConsumoApi.csproj.CoreCompileInputs.cache
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\XamlC.stamp
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\ConsumoApi.dll
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\refint\ConsumoApi.dll
+D:\UTN\AplicacionesMoviles\Xamari\ConsumoApi\ConsumoApi\ConsumoApi\obj\Debug\netstandard2.0\ConsumoApi.pdb
